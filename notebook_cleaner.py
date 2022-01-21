@@ -12,6 +12,7 @@ def cleaner(input_path, output_path=None, strip_solutions=False):
     master['metadata'].pop('nteract', None)
     master['metadata'].pop('toc', None)
     master['metadata'].pop('kernel_info', None)
+    master['metadata'].pop('interpreter', None)
     master['metadata']['kernelspec'].pop('display_name', None)
     master['metadata']['kernelspec'].pop('name', None)
     master['metadata']['language_info'].pop('version', None)
