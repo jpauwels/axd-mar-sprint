@@ -1,3 +1,6 @@
+data/flute
+data/Orchestra_hit.ogg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
