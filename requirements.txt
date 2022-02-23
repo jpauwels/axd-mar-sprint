@@ -1,3 +1,4 @@
+python-osc
 scikit-learn>=0.24
-disiple>=0.6.0
+disiple>=0.6.1
 
